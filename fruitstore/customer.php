@@ -63,9 +63,9 @@
 			<li>Options: </li>
 			<?php
    			$opt = $_POST['Options'];
-   			foreach ($opt as $hobys=>$value) {
-             echo $value."<br />";
-					 }
+   			foreach ($opt as $value) {
+						 <?= $value;?>;
+				}
 			?>
 			<li>Fruits: </li>
 			<?= $_POST["Fruits"]; ?>
